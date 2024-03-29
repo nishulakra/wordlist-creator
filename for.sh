@@ -540,3 +540,5 @@ done
 #tweleth condition done
 else
 echo "enter length between 1-12"
+fi
+
