@@ -14,8 +14,8 @@ echo "
    10. <length of 10 char
    11. <length of 11 char"
 read -p "enter the length of your wordlist: " L
-read -p "do you want  import word in a file (y/n)" yn
-if [ $yn -eq 'y' ];then
+read -p "do you want  import word in a file (y/n) " yn
+if [ $yn == 'y' ];then
 read -p "enter the file name in which you want to store the passwords: " WN
 echo "#####   Please Wait Your File Is Ready In Few Minutes. It Depands On Your System Capability And Processor  #####"
 else
